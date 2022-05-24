@@ -314,13 +314,14 @@ button {
 }
 
 .modal {
+  width: 528px;
+  height: 581px;
+
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
 
-  width: 528px;
-  height: 581px;
   background-color: var(--fon-color);
   padding: 40px;
 
@@ -350,6 +351,16 @@ button {
 
 .modal-close:hover {
   border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.modal-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
 }
 
 
