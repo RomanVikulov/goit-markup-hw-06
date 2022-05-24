@@ -425,7 +425,7 @@
     <!--Подвал-->
     <footer class="footer">
       <div class="container footer-icon">
-        <div class="contacts-block">
+        <div class="footer-contacts-block">
           <a class="logo" href="" aria-label="Логотип сайту WebStudio"
             >Web<span class="logo-studio">Studio</span>
           </a>
@@ -450,7 +450,7 @@
             </ul>
           </address>
         </div>
-        <div class="networks-block">
+        <div class="footer-networks-block">
           <h2 class="join-title">ПРИСОЕДИНЯЙТЕСЬ</h2>
           <ul class="networks-list">
             <li class="networks-item">
@@ -483,17 +483,23 @@
             </li>
           </ul>
         </div>
-        <form class="form">
-          <div class="mailing-list">
-            <h2 class="subscription">Подпишитесь на рассылку</h2>
-            <label for="mail"></label>
-            <input type="email" name="mail" id="mail" placeholder="E-mail" />
+        <div class="footer-subscribe-block">
+          <h2 class="footer-subscribe">Подпишитесь на рассылку</h2>
+          <form class="form">
+              <label for="footer-email"></label>
+              <input class="subscribe-form-email" type="email" name="mail" id="footer-email" placeholder="E-mail" />
 
-            <button class="button-submit" type="submit">
-              <span class="subscribe">Подписаться </span>
-            </button>
-          </div>
-        </form>
+              <button class="button-submit" type="submit">
+                <span class="subscribe-btn">Подписаться 
+                  <svg class="subscribe-icon" widht="24" height="24">
+                  <use href="./images/icon/symbol-defs.svg#icon-send"></use>
+                </svg>
+                </span>
+                
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </footer>
 
