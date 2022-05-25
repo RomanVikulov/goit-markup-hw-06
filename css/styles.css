@@ -389,32 +389,33 @@ textarea {
   text-align: left;
 }
 
-.input-container{
+.input-container {
   position: relative;
   display: block;
 }
 
-.input-form{
+.input-form {
   display: flex;
   width: 100%;
   height: 40px;
-  padding: 12px 15px;
+  padding: 12px 16px;
   padding-left: 42px;
   color: var(--primary-text-color);
   border: 1px solid rgba(33, 33, 33, 0.2);
-border-radius: 4px;
+  border-radius: 4px;
 }
 
-.input-form-icon{
+.input-form-icon {
   position: absolute;
   top: 50%;
   left: 13px;
   transform: translateY(-50%);
   color: var(--primary-text-color);
   fill: currentColor;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  ;
 }
-  
+
 .form-label {
   display: inline-block;
   margin-bottom: 4px;
@@ -424,6 +425,20 @@ border-radius: 4px;
   color: var(--secondary-color);
 }
 
+.form-group.comments {
+  margin-bottom: 20px;
+}
+
+.form-comments {
+  display: flex;
+  width: 100%;
+  height: 120px;
+  padding: 12px 16px;
+  color: var(--primary-text-color);
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 /* Особенности */
 
