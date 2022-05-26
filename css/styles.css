@@ -416,6 +416,10 @@ textarea {
   ;
 }
 
+.input-form:focus+.input-form-icon {
+  fill: var(--accent-color);
+}
+
 .form-label {
   display: inline-block;
   margin-bottom: 4px;
