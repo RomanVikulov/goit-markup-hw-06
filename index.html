@@ -110,13 +110,17 @@
               <textarea class="form-comments" name="comment" placeholder="Введите текст"></textarea>
             </label>
 
-            <label class="form-checkbox"></label>
-            <span class="checkbox-agreement">
-              <input class="checkbox" type="checkbox" name="agreement" />
-            </span>
-            <span class="checkbox-label">Соглашаюсь с рассылкой и принимаю
-              <a href="" class="checkbox-label-link" rel="noopener noreferrer">Условия договора</a>
-            </span>
+            <label class="form-checkbox">
+              <span class="checkbox-agreement">
+                <input class="checkbox" type="checkbox" name="agreement" />
+                <svg class="agremment-icon" width="11" height="8">
+                  <use href="./images/icon/symbol-defs.svg#icon-agremment"></use>
+                </svg>
+              </span>
+              <span class="checkbox-label">Соглашаюсь с рассылкой и принимаю
+                <a href="" class="checkbox-label-link" rel="noopener noreferrer">Условия договора</a>
+              </span>
+            </label>
 
             <button class="btn-submit" type="submit">Отправить</button>
           </form>
